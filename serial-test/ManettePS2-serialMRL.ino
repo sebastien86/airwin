@@ -1,9 +1,9 @@
 // Seb : Client pour MRL et test echanges SERIE en ARDUINO et MRL
 // pour commande via la PS2
-// Si Recoit LEDON u LEDOFF allume/eteind une led sur l'arduino et envoie en serie 0 (48) ou 1 (49)
+// Si Recoit LEDON ou LEDOFF allume/eteind une led sur l'arduino et envoie en serie 0 (48) ou 1 (49)
 // TEst 2 : envoie d'une commande serie Vers MRL
-// MRL => affiche la commade et message en retour...
-//
+// MRL => affiche la commande et message en retour...
+// attention config port com : 19200 bauds sur le Terminal Arsuino/MRL
 
 #define PIN            13
 
